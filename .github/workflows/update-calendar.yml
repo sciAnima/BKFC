@@ -6,6 +6,9 @@ on:
     - cron: "0 6 * * 1"
   workflow_dispatch: # Allow manual runs from the GitHub UI
 
+permissions:
+  contents: write
+
 jobs:
   scrape-and-commit:
     runs-on: ubuntu-latest
@@ -25,10 +28,23 @@ jobs:
       - name: Run scraper
         run: python scrape.py
 
+      - name: Verify output file exists
+        run: |
+          if [ ! -f BKFC_Events.ics ]; then
+            echo "❌ BKFC_Events.ics was not generated — scraper may have failed."
+            exit 1
+          fi
+          echo "✅ BKFC_Events.ics generated successfully."
+          wc -l BKFC_Events.ics
+
       - name: Commit updated calendar
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add BKFC_Events.ics
-          git diff --cached --quiet || git commit -m "chore: update BKFC calendar [$(date -u '+%Y-%m-%d')]"
-          git push
+          if git diff --cached --quiet; then
+            echo "✅ No changes to calendar — already up to date."
+          else
+            git commit -m "chore: update BKFC calendar [$(date -u '+%Y-%m-%d')]"
+            git push
+          fi
