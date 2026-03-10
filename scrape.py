@@ -2,12 +2,11 @@
 """
 BKFC Event Scraper
 Scrapes upcoming events from bkfc.com and generates a .ics calendar file.
-Event times are automatically converted to the system's local timezone.
+Event times are stored in ET and listed in ET / CT / PT in the description.
 """
 
 import re
 import sys
-import time as time_module
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
@@ -20,45 +19,10 @@ WATCH_URL = "https://watch.bkfc.com/"
 SOURCE_URL = "https://www.bkfc.com"
 OUTPUT_FILE = "BKFC_Events.ics"
 
-
-def get_local_timezone() -> ZoneInfo:
-    """Auto-detect the system's local timezone."""
-    try:
-        import subprocess
-        result = subprocess.run(
-            ["timedatectl", "show", "--property=Timezone", "--value"],
-            capture_output=True, text=True
-        )
-        tz_name = result.stdout.strip()
-        if tz_name:
-            print(f"  ✅ Timezone detected via timedatectl: {tz_name}")
-            return ZoneInfo(tz_name)
-    except Exception as e:
-        print(f"  ⚠️  timedatectl failed: {e}")
-
-    try:
-        from tzlocal import get_localzone
-        tz = get_localzone()
-        print(f"  ✅ Timezone detected via tzlocal: {tz}")
-        return tz
-    except ImportError:
-        print("  ⚠️  tzlocal not available, falling back to UTC offset map")
-
-    offset_seconds = -time_module.timezone if time_module.daylight == 0 else -time_module.altzone
-    offset_hours = offset_seconds // 3600
-    offset_map = {
-        -12: "Etc/GMT+12", -11: "Etc/GMT+11", -10: "Pacific/Honolulu",
-        -9: "America/Anchorage", -8: "America/Los_Angeles", -7: "America/Denver",
-        -6: "America/Chicago", -5: "America/New_York", -4: "America/Halifax",
-        -3: "America/Sao_Paulo", -2: "Etc/GMT+2", -1: "Atlantic/Azores",
-        0: "UTC", 1: "Europe/London", 2: "Europe/Paris", 3: "Europe/Moscow",
-        4: "Asia/Dubai", 5: "Asia/Karachi", 6: "Asia/Dhaka",
-        7: "Asia/Bangkok", 8: "Asia/Singapore", 9: "Asia/Tokyo",
-        10: "Australia/Sydney", 11: "Pacific/Noumea", 12: "Pacific/Auckland",
-    }
-    tz_name = offset_map.get(offset_hours, "UTC")
-    print(f"  ℹ️  Using UTC{offset_hours:+d} → {tz_name}")
-    return ZoneInfo(tz_name)
+TZ_ET = ZoneInfo("America/New_York")
+TZ_CT = ZoneInfo("America/Chicago")
+TZ_MT = ZoneInfo("America/Denver")
+TZ_PT = ZoneInfo("America/Los_Angeles")
 
 
 def fetch_page(url: str) -> BeautifulSoup:
@@ -80,9 +44,8 @@ def parse_events(soup: BeautifulSoup) -> list[dict]:
     events = []
     seen_slugs = set()
 
-    # The title <h3> links to /events/slug — find all of these
     title_links = soup.find_all("a", href=re.compile(r"^/events/"))
-    print(f"  Found {len(title_links)} <a href=/events/...> links total")
+    print(f"  Found {len(title_links)} /events/ links")
 
     for link in title_links:
         title_tag = link.find(["h2", "h3"])
@@ -97,8 +60,7 @@ def parse_events(soup: BeautifulSoup) -> list[dict]:
 
         title = title_tag.get_text(strip=True)
 
-        # Walk UP the DOM to find the nearest ancestor that contains date info
-        # Try up to 6 levels up
+        # Walk up the DOM to find an ancestor that contains the date/time
         container = link
         date_text = ""
         for _ in range(6):
@@ -110,49 +72,42 @@ def parse_events(soup: BeautifulSoup) -> list[dict]:
                 date_text = text
                 break
 
-        print(f"\n  slug={slug}")
-        print(f"    title: {title}")
-        print(f"    container text snippet: {date_text[:300] if date_text else '(no date found in ancestors)'}")
-
         if not date_text:
-            print(f"    ⚠️  Could not find date in parent containers — skipping")
+            print(f"  [{slug}] no date found in parent containers - skipping")
             continue
 
         dt_match = re.search(
             r"(\w+ \d{1,2},\s*\d{4})\s+(\d{1,2}:\d{2}\s*[AP]M)", date_text
         )
         if not dt_match:
-            print(f"    ⚠️  Date regex did not match — skipping")
+            print(f"  [{slug}] date regex did not match - skipping")
             continue
 
         date_str = dt_match.group(1).strip()
         time_str = dt_match.group(2).strip()
-        print(f"    date: {date_str}  time: {time_str}")
 
         try:
+            # BKFC publishes times in UTC
             dt = datetime.strptime(f"{date_str} {time_str}", "%B %d, %Y %I:%M %p")
             dt = dt.replace(tzinfo=ZoneInfo("UTC"))
         except ValueError as e:
-            print(f"    ⚠️  Date parse error: {e} — skipping")
+            print(f"  [{slug}] date parse error: {e} - skipping")
             continue
 
-        # Location: look for ALL-CAPS line with a dash or comma (e.g. "HARD ROCK HOTEL - HOLLYWOOD, FL")
+        # Location: prefer ALL-CAPS lines with a dash or comma
         location = ""
         for line in date_text.splitlines():
             line = line.strip()
             if re.search(r"[-,]", line) and line.isupper() and 5 < len(line) < 100:
                 location = line
                 break
-        # Fallback: any line with a dash/comma after the date
         if not location:
             after_date = date_text[dt_match.end():]
-            for line in after_date.split("  "):
-                line = line.strip()
-                if re.search(r"[-,]", line) and 5 < len(line) < 100:
-                    location = line
+            for chunk in after_date.split("  "):
+                chunk = chunk.strip()
+                if re.search(r"[-,]", chunk) and 5 < len(chunk) < 100:
+                    location = chunk
                     break
-
-        print(f"    location: {location or '(none found)'}")
 
         events.append({
             "title": title,
@@ -165,30 +120,39 @@ def parse_events(soup: BeautifulSoup) -> list[dict]:
     return events
 
 
-def build_ics(events: list[dict], local_tz: ZoneInfo) -> bytes:
-    tz_name = str(local_tz)
+def fmt(dt: datetime, tz: ZoneInfo) -> str:
+    return dt.astimezone(tz).strftime("%-I:%M %p %Z")
 
+
+def build_ics(events: list[dict]) -> bytes:
     cal = Calendar()
     cal.add("prodid", "-//BKFC Events Scraper//EN")
     cal.add("version", "2.0")
     cal.add("x-wr-calname", "BKFC Events")
-    cal.add("x-wr-timezone", tz_name)
+    cal.add("x-wr-timezone", "America/New_York")
 
     for evt in events:
-        local_dt = evt["datetime"].astimezone(local_tz)
-        local_dt_end = local_dt + timedelta(hours=4)
+        # Use ET as the base time for the calendar entry
+        et_dt = evt["datetime"].astimezone(TZ_ET)
+        et_dt_end = et_dt + timedelta(hours=4)
 
         description = (
-            f"📺 How to Watch: BKFC+ — {WATCH_URL}\n"
-            f"🔗 Event Info: {evt['url']}\n"
-            f"\n"
-            f"Source: {SOURCE_URL}"
+            "Start Times:\n"
+            f"  ET: {fmt(evt['datetime'], TZ_ET)}\n"
+            f"  CT: {fmt(evt['datetime'], TZ_CT)}\n"
+            f"  MT: {fmt(evt['datetime'], TZ_MT)}\n"
+            f"  PT: {fmt(evt['datetime'], TZ_PT)}\n"
+            "\n"
+            "How to Watch: BKFC+ -- " + WATCH_URL + "\n"
+            "Event Info: " + evt["url"] + "\n"
+            "\n"
+            "Source: " + SOURCE_URL
         )
 
         vevent = Event()
         vevent.add("summary", evt["title"])
-        vevent.add("dtstart", local_dt)
-        vevent.add("dtend", local_dt_end)
+        vevent.add("dtstart", et_dt)
+        vevent.add("dtend", et_dt_end)
         vevent.add("url", evt["url"])
         vevent.add("description", description)
         if evt["location"]:
@@ -200,38 +164,37 @@ def build_ics(events: list[dict], local_tz: ZoneInfo) -> bytes:
 
 
 def main():
-    print("🌍 Detecting local timezone ...")
-    local_tz = get_local_timezone()
-    print(f"   Timezone: {local_tz}\n")
-
-    print(f"📡 Fetching events from {BKFC_EVENTS_URL} ...")
+    print(f"Fetching events from {BKFC_EVENTS_URL} ...")
     try:
         soup = fetch_page(BKFC_EVENTS_URL)
     except Exception as e:
-        print(f"❌ Failed to fetch page: {e}")
+        print(f"ERROR: Failed to fetch page: {e}")
         sys.exit(1)
 
-    print("\n🔍 Parsing events ...")
+    print("\nParsing events ...")
     events = parse_events(soup)
-    print(f"\n   Parsed {len(events)} events.")
+    print(f"Parsed {len(events)} events.")
 
     if not events:
-        print("❌ No events found — see debug output above for clues.")
+        print("ERROR: No events found - check if the site structure has changed.")
         sys.exit(1)
 
-    print("\n📅 Events found:")
+    print("\nEvents:")
     for e in events:
-        local_dt = e["datetime"].astimezone(local_tz)
-        print(f"  • {local_dt.strftime('%b %d, %Y %I:%M %p %Z')}  |  {e['title']}")
+        print(
+            f"  {fmt(e['datetime'], TZ_ET)} ET  |  "
+            f"{fmt(e['datetime'], TZ_CT)} CT  |  "
+            f"{fmt(e['datetime'], TZ_PT)} PT  |  "
+            f"{e['title']}"
+        )
 
-    ics_bytes = build_ics(events, local_tz)
+    ics_bytes = build_ics(events)
 
     with open(OUTPUT_FILE, "wb") as f:
         f.write(ics_bytes)
 
-    print(f"\n✅ Calendar saved to {OUTPUT_FILE} (times in {local_tz})")
+    print(f"\nCalendar saved to {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
     main()
-
