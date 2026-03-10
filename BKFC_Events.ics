@@ -2,136 +2,148 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
-X-WR-TIMEZONE:Etc/UTC
+X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 SUMMARY:BKFC 87 HOLLYWOOD STEWART vs GAFFIE
-DTSTART;TZID=Etc/UTC:20260320T190000
-DTEND;TZID=Etc/UTC:20260320T230000
+DTSTART;TZID=America/New_York:20260320T150000
+DTEND;TZID=America/New_York:20260320T190000
 UID:bkfc-87-hollywood@bkfc-calendar
-DESCRIPTION:📺 How to Watch: BKFC+ — https://watch.bkfc.com/\n🔗 Eve
- nt Info: https://www.bkfc.com/events/bkfc-87-hollywood\n\nSource: https://
- www.bkfc.com
+DESCRIPTION:Start Times:\n  ET: 3:00 PM EDT\n  CT: 2:00 PM CDT\n  MT: 1:00
+  PM MDT\n  PT: 12:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.c
+ om/\nEvent Info: https://www.bkfc.com/events/bkfc-87-hollywood\n\nSource: 
+ https://www.bkfc.com
 LOCATION:HARD ROCK HOTEL & CASINO - HOLLYWOOD\, FL
 URL:https://www.bkfc.com/events/bkfc-87-hollywood
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT NEWCASTLE TERRILL vs MCFARLANE
-DTSTART;TZID=Etc/UTC:20260314T150000
-DTEND;TZID=Etc/UTC:20260314T190000
+DTSTART;TZID=America/New_York:20260314T110000
+DTEND;TZID=America/New_York:20260314T150000
 UID:bkfc-fight-night-newcastle-2@bkfc-calendar
-DESCRIPTION:📺 How to Watch: BKFC+ — https://watch.bkfc.com/\n🔗 Eve
- nt Info: https://www.bkfc.com/events/bkfc-fight-night-newcastle-2\n\nSourc
- e: https://www.bkfc.com
+DESCRIPTION:Start Times:\n  ET: 11:00 AM EDT\n  CT: 10:00 AM CDT\n  MT: 9:
+ 00 AM MDT\n  PT: 8:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
+ com/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-newcastle-2
+ \n\nSource: https://www.bkfc.com
 LOCATION:UTILITA ARENA - NEWCASTLE\, UK
 URL:https://www.bkfc.com/events/bkfc-fight-night-newcastle-2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT MOHEGAN SUN PORTER vs WILSON
-DTSTART;TZID=Etc/UTC:20260328T180000
-DTEND;TZID=Etc/UTC:20260328T220000
+DTSTART;TZID=America/New_York:20260328T140000
+DTEND;TZID=America/New_York:20260328T180000
 UID:bkfc-fight-night-mohegan-sun-porter-vs-watson@bkfc-calendar
-DESCRIPTION:📺 How to Watch: BKFC+ — https://watch.bkfc.com/\n🔗 Eve
- nt Info: https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun-porter-v
- s-watson\n\nSource: https://www.bkfc.com
+DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
+ 0 PM MDT\n  PT: 11:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
+ com/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun
+ -porter-vs-watson\n\nSource: https://www.bkfc.com
 LOCATION:THE MOHEGAN SUN - UNCASVILLE\, CT
 URL:https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun-porter-vs-wat
  son
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT CLUB
-DTSTART;TZID=Etc/UTC:20260407T200000
-DTEND;TZID=Etc/UTC:20260408T000000
+DTSTART;TZID=America/New_York:20260407T160000
+DTEND;TZID=America/New_York:20260407T200000
 UID:bkfc-fight-club-1@bkfc-calendar
-DESCRIPTION:📺 How to Watch: BKFC+ — https://watch.bkfc.com/\n🔗 Eve
- nt Info: https://www.bkfc.com/events/bkfc-fight-club-1\n\nSource: https://
- www.bkfc.com
+DESCRIPTION:Start Times:\n  ET: 4:00 PM EDT\n  CT: 3:00 PM CDT\n  MT: 2:00
+  PM MDT\n  PT: 1:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-club-1\n\nSource: h
+ ttps://www.bkfc.com
 LOCATION:THE 2300 ARENA - PHILADELPHIA\, PA
 URL:https://www.bkfc.com/events/bkfc-fight-club-1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT HONOLULU
-DTSTART;TZID=Etc/UTC:20260411T230000
-DTEND;TZID=Etc/UTC:20260412T030000
+DTSTART;TZID=America/New_York:20260411T190000
+DTEND;TZID=America/New_York:20260411T230000
 UID:bkfc-hawaii@bkfc-calendar
-DESCRIPTION:📺 How to Watch: BKFC+ — https://watch.bkfc.com/\n🔗 Eve
- nt Info: https://www.bkfc.com/events/bkfc-hawaii\n\nSource: https://www.bk
- fc.com
+DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
+  PM MDT\n  PT: 4:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-hawaii\n\nSource: https:/
+ /www.bkfc.com
 LOCATION:HONOLULU\, HI
 URL:https://www.bkfc.com/events/bkfc-hawaii
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC 88 DENVER CAMOZZI vs RODRIGUEZ
-DTSTART;TZID=Etc/UTC:20260417T200000
-DTEND;TZID=Etc/UTC:20260418T000000
+DTSTART;TZID=America/New_York:20260417T160000
+DTEND;TZID=America/New_York:20260417T200000
 UID:bkfc-denver@bkfc-calendar
-DESCRIPTION:📺 How to Watch: BKFC+ — https://watch.bkfc.com/\n🔗 Eve
- nt Info: https://www.bkfc.com/events/bkfc-denver\n\nSource: https://www.bk
- fc.com
+DESCRIPTION:Start Times:\n  ET: 4:00 PM EDT\n  CT: 3:00 PM CDT\n  MT: 2:00
+  PM MDT\n  PT: 1:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-denver\n\nSource: https:/
+ /www.bkfc.com
 LOCATION:DENVER\, CO
 URL:https://www.bkfc.com/events/bkfc-denver
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT AUSTRALIA
-DTSTART;TZID=Etc/UTC:20260418T060000
-DTEND;TZID=Etc/UTC:20260418T100000
+DTSTART;TZID=America/New_York:20260418T020000
+DTEND;TZID=America/New_York:20260418T060000
 UID:bkfc-australia-2@bkfc-calendar
-DESCRIPTION:📺 How to Watch: BKFC+ — https://watch.bkfc.com/\n🔗 Eve
- nt Info: https://www.bkfc.com/events/bkfc-australia-2\n\nSource: https://w
- ww.bkfc.com
+DESCRIPTION:Start Times:\n  ET: 2:00 AM EDT\n  CT: 1:00 AM CDT\n  MT: 12:0
+ 0 AM MDT\n  PT: 11:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
+ com/\nEvent Info: https://www.bkfc.com/events/bkfc-australia-2\n\nSource: 
+ https://www.bkfc.com
 LOCATION:TOWNSVILLE\, AU
 URL:https://www.bkfc.com/events/bkfc-australia-2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT CLEARWATER WARREN vs COOKE
-DTSTART;TZID=Etc/UTC:20260424T200000
-DTEND;TZID=Etc/UTC:20260425T000000
+DTSTART;TZID=America/New_York:20260424T160000
+DTEND;TZID=America/New_York:20260424T200000
 UID:bkfc-clearwater@bkfc-calendar
-DESCRIPTION:📺 How to Watch: BKFC+ — https://watch.bkfc.com/\n🔗 Eve
- nt Info: https://www.bkfc.com/events/bkfc-clearwater\n\nSource: https://ww
- w.bkfc.com
+DESCRIPTION:Start Times:\n  ET: 4:00 PM EDT\n  CT: 3:00 PM CDT\n  MT: 2:00
+  PM MDT\n  PT: 1:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-clearwater\n\nSource: htt
+ ps://www.bkfc.com
 LOCATION:THE OCC ROADHOUSE - CLEARWATER\, FL
 URL:https://www.bkfc.com/events/bkfc-clearwater
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BLOOD 4 BLOOD
-DTSTART;TZID=Etc/UTC:20260506T200000
-DTEND;TZID=Etc/UTC:20260507T000000
+DTSTART;TZID=America/New_York:20260506T160000
+DTEND;TZID=America/New_York:20260506T200000
 UID:blood-4-blood@bkfc-calendar
-DESCRIPTION:📺 How to Watch: BKFC+ — https://watch.bkfc.com/\n🔗 Eve
- nt Info: https://www.bkfc.com/events/blood-4-blood\n\nSource: https://www.
- bkfc.com
+DESCRIPTION:Start Times:\n  ET: 4:00 PM EDT\n  CT: 3:00 PM CDT\n  MT: 2:00
+  PM MDT\n  PT: 1:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/blood-4-blood\n\nSource: https
+ ://www.bkfc.com
 LOCATION:OCEAN CENTER - DAYTONA\, FL
 URL:https://www.bkfc.com/events/blood-4-blood
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC SALT LAKE CITY
-DTSTART;TZID=Etc/UTC:20260515T210000
-DTEND;TZID=Etc/UTC:20260516T010000
+DTSTART;TZID=America/New_York:20260515T170000
+DTEND;TZID=America/New_York:20260515T210000
 UID:bfc-salt-lake-city@bkfc-calendar
-DESCRIPTION:📺 How to Watch: BKFC+ — https://watch.bkfc.com/\n🔗 Eve
- nt Info: https://www.bkfc.com/events/bfc-salt-lake-city\n\nSource: https:/
- /www.bkfc.com
+DESCRIPTION:Start Times:\n  ET: 5:00 PM EDT\n  CT: 4:00 PM CDT\n  MT: 3:00
+  PM MDT\n  PT: 2:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bfc-salt-lake-city\n\nSource: 
+ https://www.bkfc.com
 LOCATION:THE MAVERIK CENTER\, SALT LAKE CITY\, UT
 URL:https://www.bkfc.com/events/bfc-salt-lake-city
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT PALM DESERT
-DTSTART;TZID=Etc/UTC:20260522T210000
-DTEND;TZID=Etc/UTC:20260523T010000
+DTSTART;TZID=America/New_York:20260522T170000
+DTEND;TZID=America/New_York:20260522T210000
 UID:bkfc-palm-desert@bkfc-calendar
-DESCRIPTION:📺 How to Watch: BKFC+ — https://watch.bkfc.com/\n🔗 Eve
- nt Info: https://www.bkfc.com/events/bkfc-palm-desert\n\nSource: https://w
- ww.bkfc.com
+DESCRIPTION:Start Times:\n  ET: 5:00 PM EDT\n  CT: 4:00 PM CDT\n  MT: 3:00
+  PM MDT\n  PT: 2:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-palm-desert\n\nSource: ht
+ tps://www.bkfc.com
 URL:https://www.bkfc.com/events/bkfc-palm-desert
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC SERBIA
-DTSTART;TZID=Etc/UTC:20260912T140000
-DTEND;TZID=Etc/UTC:20260912T180000
+DTSTART;TZID=America/New_York:20260912T100000
+DTEND;TZID=America/New_York:20260912T140000
 UID:bkfc-serbia@bkfc-calendar
-DESCRIPTION:📺 How to Watch: BKFC+ — https://watch.bkfc.com/\n🔗 Eve
- nt Info: https://www.bkfc.com/events/bkfc-serbia\n\nSource: https://www.bk
- fc.com
+DESCRIPTION:Start Times:\n  ET: 10:00 AM EDT\n  CT: 9:00 AM CDT\n  MT: 8:0
+ 0 AM MDT\n  PT: 7:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.c
+ om/\nEvent Info: https://www.bkfc.com/events/bkfc-serbia\n\nSource: https:
+ //www.bkfc.com
 LOCATION:BELGRADE\, SERBIA
 URL:https://www.bkfc.com/events/bkfc-serbia
 END:VEVENT
