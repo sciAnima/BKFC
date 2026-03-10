@@ -7,7 +7,7 @@ Automatically scrapes upcoming events from [bkfc.com/events](https://www.bkfc.co
 1. Go to **Settings → Calendar → Accounts → Add Account → Other → Add Subscribed Calendar**
 2. Enter the raw URL of `BKFC_Events.ics` from this repo:
    ```
-   https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/BKFC_Events.ics
+  https://raw.githubusercontent.com/sciAnima/BKFC/main/BKFC_Events.ics
    ```
 3. Tap **Next** → **Save**
 
