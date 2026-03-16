@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC 87 HOLLYWOOD STEWART vs GAFFIE
-DTSTART;TZID=America/New_York:20260320T190000
-DTEND;TZID=America/New_York:20260320T230000
-UID:bkfc-87-hollywood@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
-  PM MDT\n  PT: 4:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-87-hollywood\n\nSource: h
- ttps://www.bkfc.com
-LOCATION:HARD ROCK HOTEL & CASINO - HOLLYWOOD\, FL
-URL:https://www.bkfc.com/events/bkfc-87-hollywood
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT NEWCASTLE TERRILL vs MCFARLANE
-DTSTART;TZID=America/New_York:20260314T150000
-DTEND;TZID=America/New_York:20260314T190000
-UID:bkfc-fight-night-newcastle-2@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 3:00 PM EDT\n  CT: 2:00 PM CDT\n  MT: 1:00
-  PM MDT\n  PT: 12:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.c
- om/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-newcastle-2\
- n\nSource: https://www.bkfc.com
-LOCATION:UTILITA ARENA - NEWCASTLE\, UK
-URL:https://www.bkfc.com/events/bkfc-fight-night-newcastle-2
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT MOHEGAN SUN PORTER vs WILSON
 DTSTART;TZID=America/New_York:20260328T180000
 DTEND;TZID=America/New_York:20260328T220000
@@ -39,6 +15,18 @@ DESCRIPTION:Start Times:\n  ET: 6:00 PM EDT\n  CT: 5:00 PM CDT\n  MT: 4:00
 LOCATION:THE MOHEGAN SUN - UNCASVILLE\, CT
 URL:https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun-porter-vs-wat
  son
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC 87 HOLLYWOOD STEWART vs GAFFIE
+DTSTART;TZID=America/New_York:20260320T190000
+DTEND;TZID=America/New_York:20260320T230000
+UID:bkfc-87-hollywood@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
+  PM MDT\n  PT: 4:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-87-hollywood\n\nSource: h
+ ttps://www.bkfc.com
+LOCATION:HARD ROCK HOTEL & CASINO - HOLLYWOOD\, FL
+URL:https://www.bkfc.com/events/bkfc-87-hollywood
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT CLUB
@@ -53,7 +41,7 @@ LOCATION:THE 2300 ARENA - PHILADELPHIA\, PA
 URL:https://www.bkfc.com/events/bkfc-fight-club-1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT HONOLULU
+SUMMARY:BKFC FIGHT NIGHT HONOLULU PITOLO vs COLTRANE
 DTSTART;TZID=America/New_York:20260411T230000
 DTEND;TZID=America/New_York:20260412T030000
 UID:bkfc-hawaii@bkfc-calendar
@@ -61,7 +49,7 @@ DESCRIPTION:Start Times:\n  ET: 11:00 PM EDT\n  CT: 10:00 PM CDT\n  MT: 9:
  00 PM MDT\n  PT: 8:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
  com/\nEvent Info: https://www.bkfc.com/events/bkfc-hawaii\n\nSource: https
  ://www.bkfc.com
-LOCATION:HONOLULU\, HI
+LOCATION:BLAISDELL ARENA - HONOLULU\, HI
 URL:https://www.bkfc.com/events/bkfc-hawaii
 END:VEVENT
 BEGIN:VEVENT
@@ -73,11 +61,11 @@ DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
   PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
  m/\nEvent Info: https://www.bkfc.com/events/bkfc-denver\n\nSource: https:/
  /www.bkfc.com
-LOCATION:DENVER\, CO
+LOCATION:NATIONAL WESTERN CENTER - DENVER\, CO
 URL:https://www.bkfc.com/events/bkfc-denver
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT AUSTRALIA
+SUMMARY:BKFC FIGHT NIGHT AUSTRALIA HEPI vs WISNIEWSKI
 DTSTART;TZID=America/New_York:20260418T060000
 DTEND;TZID=America/New_York:20260418T100000
 UID:bkfc-australia-2@bkfc-calendar
@@ -85,7 +73,7 @@ DESCRIPTION:Start Times:\n  ET: 6:00 AM EDT\n  CT: 5:00 AM CDT\n  MT: 4:00
   AM MDT\n  PT: 3:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
  m/\nEvent Info: https://www.bkfc.com/events/bkfc-australia-2\n\nSource: ht
  tps://www.bkfc.com
-LOCATION:TOWNSVILLE\, AU
+LOCATION:TOWNSVILLE CONVENTION CENTER - TOWNSVILLE\, AU
 URL:https://www.bkfc.com/events/bkfc-australia-2
 END:VEVENT
 BEGIN:VEVENT
@@ -133,7 +121,20 @@ DESCRIPTION:Start Times:\n  ET: 9:00 PM EDT\n  CT: 8:00 PM CDT\n  MT: 7:00
   PM MDT\n  PT: 6:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
  m/\nEvent Info: https://www.bkfc.com/events/bkfc-palm-desert\n\nSource: ht
  tps://www.bkfc.com
+LOCATION:ACRISURE ARENA - PALM DESERT\, CA
 URL:https://www.bkfc.com/events/bkfc-palm-desert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC 90 BIRMINGHAM TIERNY vs FRANCO
+DTSTART;TZID=America/New_York:20260530T140000
+DTEND;TZID=America/New_York:20260530T180000
+UID:bkfc-90-birmingham-tierny-vs-franco@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
+ 0 PM MDT\n  PT: 11:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
+ com/\nEvent Info: https://www.bkfc.com/events/bkfc-90-birmingham-tierny-vs
+ -franco\n\nSource: https://www.bkfc.com
+LOCATION:UTILITA ARENA - BIRMINGHAM\, UK
+URL:https://www.bkfc.com/events/bkfc-90-birmingham-tierny-vs-franco
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC SERBIA
