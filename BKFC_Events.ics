@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT HONOLULU PITOLO vs COLTRANE
-DTSTART;TZID=America/New_York:20260411T230000
-DTEND;TZID=America/New_York:20260412T030000
-UID:bkfc-hawaii@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 11:00 PM EDT\n  CT: 10:00 PM CDT\n  MT: 9:
- 00 PM MDT\n  PT: 8:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
- com/\nEvent Info: https://www.bkfc.com/events/bkfc-hawaii\n\nSource: https
- ://www.bkfc.com
-LOCATION:BLAISDELL ARENA - HONOLULU\, HI
-URL:https://www.bkfc.com/events/bkfc-hawaii
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT CLUB
-DTSTART;TZID=America/New_York:20260407T200000
-DTEND;TZID=America/New_York:20260408T000000
-UID:bkfc-fight-club-1@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
-  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-club-1\n\nSource: h
- ttps://www.bkfc.com
-LOCATION:THE 2300 ARENA - PHILADELPHIA\, PA
-URL:https://www.bkfc.com/events/bkfc-fight-club-1
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC 88 DENVER CAMOZZI vs RODRIGUEZ
 DTSTART;TZID=America/New_York:20260417T200000
 DTEND;TZID=America/New_York:20260418T000000
@@ -40,12 +16,24 @@ LOCATION:NATIONAL WESTERN CENTER - DENVER\, CO
 URL:https://www.bkfc.com/events/bkfc-denver
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT HONOLULU PITOLO vs COLTRANE
+DTSTART;TZID=America/New_York:20260411T230000
+DTEND;TZID=America/New_York:20260412T030000
+UID:bkfc-hawaii@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 11:00 PM EDT\n  CT: 10:00 PM CDT\n  MT: 9:
+ 00 PM MDT\n  PT: 8:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
+ com/\nEvent Info: https://www.bkfc.com/events/bkfc-hawaii\n\nSource: https
+ ://www.bkfc.com
+LOCATION:BLAISDELL ARENA - HONOLULU\, HI
+URL:https://www.bkfc.com/events/bkfc-hawaii
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT AUSTRALIA HEPI vs WISNIEWSKI
-DTSTART;TZID=America/New_York:20260418T060000
-DTEND;TZID=America/New_York:20260418T100000
+DTSTART;TZID=America/New_York:20260418T050000
+DTEND;TZID=America/New_York:20260418T090000
 UID:bkfc-australia-2@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 6:00 AM EDT\n  CT: 5:00 AM CDT\n  MT: 4:00
-  AM MDT\n  PT: 3:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+DESCRIPTION:Start Times:\n  ET: 5:00 AM EDT\n  CT: 4:00 AM CDT\n  MT: 3:00
+  AM MDT\n  PT: 2:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
  m/\nEvent Info: https://www.bkfc.com/events/bkfc-australia-2\n\nSource: ht
  tps://www.bkfc.com
 LOCATION:TOWNSVILLE CONVENTION CENTER - TOWNSVILLE\, AU
