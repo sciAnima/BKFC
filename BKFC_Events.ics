@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC 88 DENVER CAMOZZI vs RODRIGUEZ
-DTSTART;TZID=America/New_York:20260417T200000
-DTEND;TZID=America/New_York:20260418T000000
-UID:bkfc-denver@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
-  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-denver\n\nSource: https:/
- /www.bkfc.com
-LOCATION:NATIONAL WESTERN CENTER - DENVER\, CO
-URL:https://www.bkfc.com/events/bkfc-denver
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT HONOLULU PITOLO vs COLTRANE
-DTSTART;TZID=America/New_York:20260411T230000
-DTEND;TZID=America/New_York:20260412T030000
-UID:bkfc-hawaii@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 11:00 PM EDT\n  CT: 10:00 PM CDT\n  MT: 9:
- 00 PM MDT\n  PT: 8:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
- com/\nEvent Info: https://www.bkfc.com/events/bkfc-hawaii\n\nSource: https
- ://www.bkfc.com
-LOCATION:BLAISDELL ARENA - HONOLULU\, HI
-URL:https://www.bkfc.com/events/bkfc-hawaii
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT AUSTRALIA HEPI vs WISNIEWSKI
 DTSTART;TZID=America/New_York:20260418T050000
 DTEND;TZID=America/New_York:20260418T090000
@@ -40,7 +16,19 @@ LOCATION:TOWNSVILLE CONVENTION CENTER - TOWNSVILLE\, AU
 URL:https://www.bkfc.com/events/bkfc-australia-2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT CLEARWATER WARREN vs COOKE
+SUMMARY:BKFC 88 DENVER CAMOZZI vs RODRIGUEZ
+DTSTART;TZID=America/New_York:20260417T200000
+DTEND;TZID=America/New_York:20260418T000000
+UID:bkfc-denver@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
+  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-denver\n\nSource: https:/
+ /www.bkfc.com
+LOCATION:NATIONAL WESTERN CENTER - DENVER\, CO
+URL:https://www.bkfc.com/events/bkfc-denver
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT CLEARWATER GASKINS vs GUYMON
 DTSTART;TZID=America/New_York:20260424T200000
 DTEND;TZID=America/New_York:20260425T000000
 UID:bkfc-clearwater@bkfc-calendar
@@ -62,18 +50,6 @@ DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
  ://www.bkfc.com
 LOCATION:OCEAN CENTER - DAYTONA\, FL
 URL:https://www.bkfc.com/events/blood-4-blood
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT SALT LAKE CITY
-DTSTART;TZID=America/New_York:20260515T210000
-DTEND;TZID=America/New_York:20260516T010000
-UID:bkfc-89-salt-lake-city@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 9:00 PM EDT\n  CT: 8:00 PM CDT\n  MT: 7:00
-  PM MDT\n  PT: 6:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-89-salt-lake-city\n\nSour
- ce: https://www.bkfc.com
-LOCATION:THE MAVERIK CENTER\, SALT LAKE CITY\, UT
-URL:https://www.bkfc.com/events/bkfc-89-salt-lake-city
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC 89 PALM DESERT HERRING vs MANESS
@@ -98,6 +74,29 @@ DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
  -franco\n\nSource: https://www.bkfc.com
 LOCATION:UTILITA ARENA - BIRMINGHAM\, UK
 URL:https://www.bkfc.com/events/bkfc-90-birmingham-tierny-vs-franco
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT HOLLYWOOD
+DTSTART;TZID=America/New_York:20260604T190000
+DTEND;TZID=America/New_York:20260604T230000
+UID:bkfc-fight-night-hollywood@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
+  PM MDT\n  PT: 4:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-hollywood\n\n
+ Source: https://www.bkfc.com
+LOCATION:HARD ROCK HOTEL & CASINO - HOLLYWOOD\, FL
+URL:https://www.bkfc.com/events/bkfc-fight-night-hollywood
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT HAMMOND
+DTSTART;TZID=America/New_York:20260626T200000
+DTEND;TZID=America/New_York:20260627T000000
+UID:bkfc-fight-night-hammond@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
+  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-hammond\n\nSo
+ urce: https://www.bkfc.com
+URL:https://www.bkfc.com/events/bkfc-fight-night-hammond
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC LIBERTY BRAWL
