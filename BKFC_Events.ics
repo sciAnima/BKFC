@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BLOOD 4 BLOOD
-DTSTART;TZID=America/New_York:20260506T200000
-DTEND;TZID=America/New_York:20260507T000000
-UID:blood-4-blood@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
-  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/blood-4-blood\n\nSource: https
- ://www.bkfc.com
-LOCATION:OCEAN CENTER - DAYTONA\, FL
-URL:https://www.bkfc.com/events/blood-4-blood
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT CLEARWATER GASKINS vs GUYMON
-DTSTART;TZID=America/New_York:20260424T200000
-DTEND;TZID=America/New_York:20260425T000000
-UID:bkfc-clearwater@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
-  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-clearwater\n\nSource: htt
- ps://www.bkfc.com
-LOCATION:THE OCC ROADHOUSE - CLEARWATER\, FL
-URL:https://www.bkfc.com/events/bkfc-clearwater
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC 89 PALM DESERT HERRING vs MANESS
 DTSTART;TZID=America/New_York:20260522T210000
 DTEND;TZID=America/New_York:20260523T010000
@@ -38,6 +14,18 @@ DESCRIPTION:Start Times:\n  ET: 9:00 PM EDT\n  CT: 8:00 PM CDT\n  MT: 7:00
  tps://www.bkfc.com
 LOCATION:ACRISURE ARENA - PALM DESERT\, CA
 URL:https://www.bkfc.com/events/bkfc-palm-desert
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BLOOD 4 BLOOD
+DTSTART;TZID=America/New_York:20260506T200000
+DTEND;TZID=America/New_York:20260507T000000
+UID:blood-4-blood@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
+  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/blood-4-blood\n\nSource: https
+ ://www.bkfc.com
+LOCATION:OCEAN CENTER - DAYTONA\, FL
+URL:https://www.bkfc.com/events/blood-4-blood
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC 90 BIRMINGHAM TIERNY vs FRANCO
@@ -76,7 +64,7 @@ LOCATION:THE PINNACLE - NASHVILLE\, TN
 URL:https://www.bkfc.com/events/bkfc-nashville
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT HAMMOND
+SUMMARY:BKFC FIGHT NIGHT HAMMOND VANCAMP vs CISNEROS
 DTSTART;TZID=America/New_York:20260626T200000
 DTEND;TZID=America/New_York:20260627T000000
 UID:bkfc-fight-night-hammond@bkfc-calendar
@@ -84,7 +72,7 @@ DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
   PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
  m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-hammond\n\nSo
  urce: https://www.bkfc.com
-LOCATION:HAMMOND CAINO - HAMMOND\, IN
+LOCATION:HAMMOND CASINO - HAMMOND\, IN
 URL:https://www.bkfc.com/events/bkfc-fight-night-hammond
 END:VEVENT
 BEGIN:VEVENT
