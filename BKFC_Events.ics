@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC 89 PALM DESERT HERRING vs MANESS
-DTSTART;TZID=America/New_York:20260522T210000
-DTEND;TZID=America/New_York:20260523T010000
-UID:bkfc-palm-desert@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 9:00 PM EDT\n  CT: 8:00 PM CDT\n  MT: 7:00
-  PM MDT\n  PT: 6:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-palm-desert\n\nSource: ht
- tps://www.bkfc.com
-LOCATION:ACRISURE ARENA - PALM DESERT\, CA
-URL:https://www.bkfc.com/events/bkfc-palm-desert
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BLOOD 4 BLOOD
-DTSTART;TZID=America/New_York:20260506T190000
-DTEND;TZID=America/New_York:20260506T230000
-UID:blood-4-blood@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
-  PM MDT\n  PT: 4:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/blood-4-blood\n\nSource: https
- ://www.bkfc.com
-LOCATION:OCEAN CENTER - DAYTONA\, FL
-URL:https://www.bkfc.com/events/blood-4-blood
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC 90 BIRMINGHAM TIERNY vs FRANCO
 DTSTART;TZID=America/New_York:20260530T140000
 DTEND;TZID=America/New_York:20260530T180000
@@ -38,6 +14,18 @@ DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
  -franco\n\nSource: https://www.bkfc.com
 LOCATION:UTILITA ARENA - BIRMINGHAM\, UK
 URL:https://www.bkfc.com/events/bkfc-90-birmingham-tierny-vs-franco
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC 89 PALM DESERT HERRING vs MANESS
+DTSTART;TZID=America/New_York:20260522T210000
+DTEND;TZID=America/New_York:20260523T010000
+UID:bkfc-palm-desert@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 9:00 PM EDT\n  CT: 8:00 PM CDT\n  MT: 7:00
+  PM MDT\n  PT: 6:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-palm-desert\n\nSource: ht
+ tps://www.bkfc.com
+LOCATION:ACRISURE ARENA - PALM DESERT\, CA
+URL:https://www.bkfc.com/events/bkfc-palm-desert
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT HOLLYWOOD LANE vs HENRY
@@ -115,13 +103,13 @@ BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT STURGIS
 DTSTART;TZID=America/New_York:20260808T210000
 DTEND;TZID=America/New_York:20260809T010000
-UID:bkfc-sturgis-2@bkfc-calendar
+UID:bkfc-fight-night-sturgis@bkfc-calendar
 DESCRIPTION:Start Times:\n  ET: 9:00 PM EDT\n  CT: 8:00 PM CDT\n  MT: 7:00
   PM MDT\n  PT: 6:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-sturgis-2\n\nSource: http
- s://www.bkfc.com
-LOCATION:STURGIS\, SD
-URL:https://www.bkfc.com/events/bkfc-sturgis-2
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-sturgis\n\nSo
+ urce: https://www.bkfc.com
+LOCATION:THE BUFALO CHIP - STURGIS\, SD
+URL:https://www.bkfc.com/events/bkfc-fight-night-sturgis
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC SERBIA
