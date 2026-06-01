@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT HOLLYWOOD LANE vs HENRY
-DTSTART;TZID=America/New_York:20260604T190000
-DTEND;TZID=America/New_York:20260604T230000
-UID:bkfc-fight-night-hollywood@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
-  PM MDT\n  PT: 4:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-hollywood\n\n
- Source: https://www.bkfc.com
-LOCATION:HARD ROCK HOTEL & CASINO - HOLLYWOOD\, FL
-URL:https://www.bkfc.com/events/bkfc-fight-night-hollywood
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC 90 BIRMINGHAM TIERNEY vs FRANCO
-DTSTART;TZID=America/New_York:20260530T140000
-DTEND;TZID=America/New_York:20260530T180000
-UID:bkfc-90-birmingham-tierny-vs-franco@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
- 0 PM MDT\n  PT: 11:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
- com/\nEvent Info: https://www.bkfc.com/events/bkfc-90-birmingham-tierny-vs
- -franco\n\nSource: https://www.bkfc.com
-LOCATION:UTILITA ARENA - BIRMINGHAM\, UK
-URL:https://www.bkfc.com/events/bkfc-90-birmingham-tierny-vs-franco
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT NASHVILLE SOTO vs DELEON
 DTSTART;TZID=America/New_York:20260619T210000
 DTEND;TZID=America/New_York:20260620T010000
@@ -40,6 +16,18 @@ LOCATION:THE PINNACLE - NASHVILLE\, TN
 URL:https://www.bkfc.com/events/bkfc-nashville
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT HOLLYWOOD LANE vs HENRY
+DTSTART;TZID=America/New_York:20260604T190000
+DTEND;TZID=America/New_York:20260604T230000
+UID:bkfc-fight-night-hollywood@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
+  PM MDT\n  PT: 4:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-hollywood\n\n
+ Source: https://www.bkfc.com
+LOCATION:HARD ROCK HOTEL & CASINO - HOLLYWOOD\, FL
+URL:https://www.bkfc.com/events/bkfc-fight-night-hollywood
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT HAMMOND VANCAMP vs CISNEROS
 DTSTART;TZID=America/New_York:20260626T200000
 DTEND;TZID=America/New_York:20260627T000000
@@ -48,7 +36,7 @@ DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
   PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
  m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-hammond\n\nSo
  urce: https://www.bkfc.com
-LOCATION:HAMMOND CASINO - HAMMOND\, IN
+LOCATION:HAMMOND CASINO - HAMMOND\, IN - 21+ only
 URL:https://www.bkfc.com/events/bkfc-fight-night-hammond
 END:VEVENT
 BEGIN:VEVENT
@@ -98,6 +86,18 @@ DESCRIPTION:Start Times:\n  ET: 9:00 PM EDT\n  CT: 8:00 PM CDT\n  MT: 7:00
  urce: https://www.bkfc.com
 LOCATION:THE BUFALO CHIP - STURGIS\, SD
 URL:https://www.bkfc.com/events/bkfc-fight-night-sturgis
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT MOHEGAN SUN
+DTSTART;TZID=America/New_York:20260821T180000
+DTEND;TZID=America/New_York:20260821T220000
+UID:bkfc-fight-night-mohegan-sun-2@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 6:00 PM EDT\n  CT: 5:00 PM CDT\n  MT: 4:00
+  PM MDT\n  PT: 3:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun-2
+ \n\nSource: https://www.bkfc.com
+LOCATION:THE MOHEGAN SUN - UNCASVILLE\, CT
+URL:https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun-2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT CLEARWATER
