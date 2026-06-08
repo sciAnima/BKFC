@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT NASHVILLE SOTO vs DELEON
-DTSTART;TZID=America/New_York:20260619T210000
-DTEND;TZID=America/New_York:20260620T010000
-UID:bkfc-nashville@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 9:00 PM EDT\n  CT: 8:00 PM CDT\n  MT: 7:00
-  PM MDT\n  PT: 6:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-nashville\n\nSource: http
- s://www.bkfc.com
-LOCATION:THE PINNACLE - NASHVILLE\, TN
-URL:https://www.bkfc.com/events/bkfc-nashville
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT HOLLYWOOD LANE vs HENRY
-DTSTART;TZID=America/New_York:20260604T190000
-DTEND;TZID=America/New_York:20260604T230000
-UID:bkfc-fight-night-hollywood@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
-  PM MDT\n  PT: 4:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-hollywood\n\n
- Source: https://www.bkfc.com
-LOCATION:HARD ROCK HOTEL & CASINO - HOLLYWOOD\, FL
-URL:https://www.bkfc.com/events/bkfc-fight-night-hollywood
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT HAMMOND VANCAMP vs CISNEROS
 DTSTART;TZID=America/New_York:20260626T200000
 DTEND;TZID=America/New_York:20260627T000000
@@ -38,6 +14,18 @@ DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
  urce: https://www.bkfc.com
 LOCATION:HAMMOND CASINO - HAMMOND\, IN - 21+ only
 URL:https://www.bkfc.com/events/bkfc-fight-night-hammond
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT NASHVILLE SOTO vs DELEON
+DTSTART;TZID=America/New_York:20260619T210000
+DTEND;TZID=America/New_York:20260620T010000
+UID:bkfc-nashville@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 9:00 PM EDT\n  CT: 8:00 PM CDT\n  MT: 7:00
+  PM MDT\n  PT: 6:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-nashville\n\nSource: http
+ s://www.bkfc.com
+LOCATION:THE PINNACLE - NASHVILLE\, TN
+URL:https://www.bkfc.com/events/bkfc-nashville
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC LIBERTY BRAWL
