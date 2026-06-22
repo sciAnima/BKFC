@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT HAMMOND VANCAMP vs CISNEROS
-DTSTART;TZID=America/New_York:20260626T200000
-DTEND;TZID=America/New_York:20260627T000000
-UID:bkfc-fight-night-hammond@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
-  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-hammond\n\nSo
- urce: https://www.bkfc.com
-LOCATION:HAMMOND CASINO - HAMMOND\, IN - 21+ only
-URL:https://www.bkfc.com/events/bkfc-fight-night-hammond
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT NASHVILLE SOTO vs DELEON
-DTSTART;TZID=America/New_York:20260619T210000
-DTEND;TZID=America/New_York:20260620T010000
-UID:bkfc-nashville@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 9:00 PM EDT\n  CT: 8:00 PM CDT\n  MT: 7:00
-  PM MDT\n  PT: 6:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-nashville\n\nSource: http
- s://www.bkfc.com
-LOCATION:THE PINNACLE - NASHVILLE\, TN
-URL:https://www.bkfc.com/events/bkfc-nashville
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC LIBERTY BRAWL
 DTSTART;TZID=America/New_York:20260703T200000
 DTEND;TZID=America/New_York:20260704T000000
@@ -38,6 +14,18 @@ DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
  https://www.bkfc.com
 LOCATION:XFINITY MOBILE ARENA - PHILADELPHIA PA
 URL:https://www.bkfc.com/events/bkfc-liberty-brawl
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT HAMMOND VANCAMP vs CISNEROS
+DTSTART;TZID=America/New_York:20260626T200000
+DTEND;TZID=America/New_York:20260627T000000
+UID:bkfc-fight-night-hammond@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
+  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-hammond\n\nSo
+ urce: https://www.bkfc.com
+LOCATION:HAMMOND CASINO - HAMMOND\, IN - 21+ only
+URL:https://www.bkfc.com/events/bkfc-fight-night-hammond
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC 91 NAPLES HUNT vs PUGLIESI
@@ -64,7 +52,20 @@ LOCATION:MONTEVIDEO\, URUGUAY
 URL:https://www.bkfc.com/events/bkfc-fight-night-uruguay
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT STURGIS
+SUMMARY:BKFC FIGHT NIGHT NEWCASTLE GARSIDE vs TAYLOR
+DTSTART;TZID=America/New_York:20260801T140000
+DTEND;TZID=America/New_York:20260801T180000
+UID:bkfc-fight-night-newcastle-garside-vs-taylor@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
+ 0 PM MDT\n  PT: 11:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
+ com/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-newcastle-g
+ arside-vs-taylor\n\nSource: https://www.bkfc.com
+LOCATION:WALKER ACTIVITY DOME - NEWCASTLE\, UK
+URL:https://www.bkfc.com/events/bkfc-fight-night-newcastle-garside-vs-tayl
+ or
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT STURGIS ACHESON vs JONES
 DTSTART;TZID=America/New_York:20260808T210000
 DTEND;TZID=America/New_York:20260809T010000
 UID:bkfc-fight-night-sturgis@bkfc-calendar
