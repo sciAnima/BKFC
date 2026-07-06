@@ -4,6 +4,18 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT URUGUAY REYNO vs KREJCI
+DTSTART;TZID=America/New_York:20260725T200000
+DTEND;TZID=America/New_York:20260726T000000
+UID:bkfc-fight-night-uruguay@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
+  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-uruguay\n\nSo
+ urce: https://www.bkfc.com
+LOCATION:MONTEVIDEO\, URUGUAY
+URL:https://www.bkfc.com/events/bkfc-fight-night-uruguay
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:BKFC 91 NAPLES HUNT vs PUGLIESI
 DTSTART;TZID=America/New_York:20260718T140000
 DTEND;TZID=America/New_York:20260718T180000
@@ -14,30 +26,6 @@ DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
  ://www.bkfc.com
 LOCATION:ARENA FLEGREA - NAPLES ITALY
 URL:https://www.bkfc.com/events/bkfc-naples
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC LIBERTY BRAWL
-DTSTART;TZID=America/New_York:20260703T200000
-DTEND;TZID=America/New_York:20260704T000000
-UID:bkfc-liberty-brawl@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
-  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-liberty-brawl\n\nSource: 
- https://www.bkfc.com
-LOCATION:XFINITY MOBILE ARENA - PHILADELPHIA PA
-URL:https://www.bkfc.com/events/bkfc-liberty-brawl
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT URUGUAY
-DTSTART;TZID=America/New_York:20260725T190000
-DTEND;TZID=America/New_York:20260725T230000
-UID:bkfc-fight-night-uruguay@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
-  PM MDT\n  PT: 4:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-uruguay\n\nSo
- urce: https://www.bkfc.com
-LOCATION:MONTEVIDEO\, URUGUAY
-URL:https://www.bkfc.com/events/bkfc-fight-night-uruguay
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT NEWCASTLE GARSIDE vs TAYLOR
@@ -65,7 +53,7 @@ LOCATION:THE BUFALO CHIP - STURGIS\, SD
 URL:https://www.bkfc.com/events/bkfc-fight-night-sturgis
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT MOHEGAN SUN
+SUMMARY:BKFC FIGHT NIGHT MOHEGAN SUN HENRY vs TRINIDAD
 DTSTART;TZID=America/New_York:20260821T180000
 DTEND;TZID=America/New_York:20260821T220000
 UID:bkfc-fight-night-mohegan-sun-2@bkfc-calendar
@@ -89,6 +77,54 @@ LOCATION:FENWAY PARK - BOSTON\, MA
 URL:https://www.bkfc.com/events/bkfc-92
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:BKFC 93 HOLLYWOOD
+DTSTART;TZID=America/New_York:20260911T190000
+DTEND;TZID=America/New_York:20260911T230000
+UID:bkfc-93-hollywood@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
+  PM MDT\n  PT: 4:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-93-hollywood\n\nSource: h
+ ttps://www.bkfc.com
+LOCATION:HARD ROCK HOTEL & CASINO - HOLLYWOOD\, FL
+URL:https://www.bkfc.com/events/bkfc-93-hollywood
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC 94 MANCHESTER
+DTSTART;TZID=America/New_York:20260926T140000
+DTEND;TZID=America/New_York:20260926T180000
+UID:bkfc-94-manchester@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
+ 0 PM MDT\n  PT: 11:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
+ com/\nEvent Info: https://www.bkfc.com/events/bkfc-94-manchester\n\nSource
+ : https://www.bkfc.com
+LOCATION:AO ARENA - MANCHESTER\, UK
+URL:https://www.bkfc.com/events/bkfc-94-manchester
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC BELGRADE
+DTSTART;TZID=America/New_York:20261017T140000
+DTEND;TZID=America/New_York:20261017T180000
+UID:bkfc-serbia@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
+ 0 PM MDT\n  PT: 11:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
+ com/\nEvent Info: https://www.bkfc.com/events/bkfc-serbia\n\nSource: https
+ ://www.bkfc.com
+LOCATION:BELGRADE\, SERBIA
+URL:https://www.bkfc.com/events/bkfc-serbia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC 95 NEWARK
+DTSTART;TZID=America/New_York:20261017T200000
+DTEND;TZID=America/New_York:20261018T000000
+UID:bkfc-95-newark@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
+  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-95-newark\n\nSource: http
+ s://www.bkfc.com
+LOCATION:PRUDENTIAL CENTER - NEWARK\, NJ
+URL:https://www.bkfc.com/events/bkfc-95-newark
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT CLEARWATER
 DTSTART;TZID=America/New_York:20261023T190000
 DTEND;TZID=America/New_York:20261023T230000
@@ -99,5 +135,17 @@ DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
  n\nSource: https://www.bkfc.com
 LOCATION:OCC ROAD HOUSE - CLEARWATER\, FL
 URL:https://www.bkfc.com/events/bkfc-fight-night-clearwater-4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC GLASGOW
+DTSTART;TZID=America/New_York:20261107T140000
+DTEND;TZID=America/New_York:20261107T180000
+UID:bkfc-glasgow@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 2:00 PM EST\n  CT: 1:00 PM CST\n  MT: 12:0
+ 0 PM MST\n  PT: 11:00 AM PST\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
+ com/\nEvent Info: https://www.bkfc.com/events/bkfc-glasgow\n\nSource: http
+ s://www.bkfc.com
+LOCATION:OVO HYDRO - GLASGOW\, SCOTLAND
+URL:https://www.bkfc.com/events/bkfc-glasgow
 END:VEVENT
 END:VCALENDAR
