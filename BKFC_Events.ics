@@ -17,13 +17,13 @@ URL:https://www.bkfc.com/events/bkfc-fight-night-uruguay
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC 91 NAPLES HUNT vs PUGLIESI
-DTSTART;TZID=America/New_York:20260718T140000
-DTEND;TZID=America/New_York:20260718T180000
+DTSTART;TZID=America/New_York:20260718T130000
+DTEND;TZID=America/New_York:20260718T170000
 UID:bkfc-naples@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
- 0 PM MDT\n  PT: 11:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
- com/\nEvent Info: https://www.bkfc.com/events/bkfc-naples\n\nSource: https
- ://www.bkfc.com
+DESCRIPTION:Start Times:\n  ET: 1:00 PM EDT\n  CT: 12:00 PM CDT\n  MT: 11:
+ 00 AM MDT\n  PT: 10:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc
+ .com/\nEvent Info: https://www.bkfc.com/events/bkfc-naples\n\nSource: http
+ s://www.bkfc.com
 LOCATION:ARENA FLEGREA - NAPLES ITALY
 URL:https://www.bkfc.com/events/bkfc-naples
 END:VEVENT
@@ -101,14 +101,14 @@ LOCATION:AO ARENA - MANCHESTER\, UK
 URL:https://www.bkfc.com/events/bkfc-94-manchester
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFC BELGRADE
-DTSTART;TZID=America/New_York:20261017T140000
-DTEND;TZID=America/New_York:20261017T180000
+SUMMARY:BKFC FIGHT NIGHT BELGRADE
+DTSTART;TZID=America/New_York:20261017T130000
+DTEND;TZID=America/New_York:20261017T170000
 UID:bkfc-serbia@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
- 0 PM MDT\n  PT: 11:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
- com/\nEvent Info: https://www.bkfc.com/events/bkfc-serbia\n\nSource: https
- ://www.bkfc.com
+DESCRIPTION:Start Times:\n  ET: 1:00 PM EDT\n  CT: 12:00 PM CDT\n  MT: 11:
+ 00 AM MDT\n  PT: 10:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc
+ .com/\nEvent Info: https://www.bkfc.com/events/bkfc-serbia\n\nSource: http
+ s://www.bkfc.com
 LOCATION:BELGRADE\, SERBIA
 URL:https://www.bkfc.com/events/bkfc-serbia
 END:VEVENT
@@ -126,18 +126,18 @@ URL:https://www.bkfc.com/events/bkfc-95-newark
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT CLEARWATER
-DTSTART;TZID=America/New_York:20261023T190000
-DTEND;TZID=America/New_York:20261023T230000
+DTSTART;TZID=America/New_York:20261023T200000
+DTEND;TZID=America/New_York:20261024T000000
 UID:bkfc-fight-night-clearwater-4@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
-  PM MDT\n  PT: 4:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
+  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
  m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-clearwater-4\
  n\nSource: https://www.bkfc.com
 LOCATION:OCC ROAD HOUSE - CLEARWATER\, FL
 URL:https://www.bkfc.com/events/bkfc-fight-night-clearwater-4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFC GLASGOW
+SUMMARY:BKFC FIGHT NIGHT GLASGOW
 DTSTART;TZID=America/New_York:20261107T140000
 DTEND;TZID=America/New_York:20261107T180000
 UID:bkfc-glasgow@bkfc-calendar
