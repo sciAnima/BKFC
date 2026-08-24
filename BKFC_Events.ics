@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC 92 BOSTON STEWART vs GIGLIOTTI
-DTSTART;TZID=America/New_York:20260829T180000
-DTEND;TZID=America/New_York:20260829T220000
-UID:bkfc-92@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 6:00 PM EDT\n  CT: 5:00 PM CDT\n  MT: 4:00
-  PM MDT\n  PT: 3:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-92\n\nSource: https://www
- .bkfc.com
-LOCATION:FENWAY PARK - BOSTON\, MA
-URL:https://www.bkfc.com/events/bkfc-92
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT MOHEGAN SUN HENRY vs TRINIDAD-SNAKE
-DTSTART;TZID=America/New_York:20260821T180000
-DTEND;TZID=America/New_York:20260821T220000
-UID:bkfc-fight-night-mohegan-sun-2@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 6:00 PM EDT\n  CT: 5:00 PM CDT\n  MT: 4:00
-  PM MDT\n  PT: 3:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun-2
- \n\nSource: https://www.bkfc.com
-LOCATION:THE MOHEGAN SUN - UNCASVILLE\, CT
-URL:https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun-2
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC 93 HOLLYWOOD PERDOMO vs GARRETT
 DTSTART;TZID=America/New_York:20260911T190000
 DTEND;TZID=America/New_York:20260911T230000
@@ -38,6 +14,18 @@ DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
  ttps://www.bkfc.com
 LOCATION:HARD ROCK HOTEL & CASINO - HOLLYWOOD\, FL
 URL:https://www.bkfc.com/events/bkfc-93-hollywood
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC 92 BOSTON STEWART vs GIGLIOTTI
+DTSTART;TZID=America/New_York:20260829T180000
+DTEND;TZID=America/New_York:20260829T220000
+UID:bkfc-92@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 6:00 PM EDT\n  CT: 5:00 PM CDT\n  MT: 4:00
+  PM MDT\n  PT: 3:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-92\n\nSource: https://www
+ .bkfc.com
+LOCATION:FENWAY PARK - BOSTON\, MA
+URL:https://www.bkfc.com/events/bkfc-92
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC 94 MANCHESTER TILL vs ROMERO
