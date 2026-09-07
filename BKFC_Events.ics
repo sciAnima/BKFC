@@ -48,7 +48,7 @@ DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
   PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
  m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-bethlehem\n\n
  Source: https://www.bkfc.com
-LOCATION:WIND CREEK EVENT CENTER - BETHEHEM\, PA
+LOCATION:WIND CREEK EVENT CENTER - BETHLEHEM\, PA
 URL:https://www.bkfc.com/events/bkfc-fight-night-bethlehem
 END:VEVENT
 BEGIN:VEVENT
@@ -76,7 +76,7 @@ LOCATION:PRUDENTIAL CENTER - NEWARK\, NJ
 URL:https://www.bkfc.com/events/bkfc-95-newark
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT CLEARWATER
+SUMMARY:BKFC FIGHT NIGHT CLEARWATER REBER vs STREET
 DTSTART;TZID=America/New_York:20261023T200000
 DTEND;TZID=America/New_York:20261024T000000
 UID:bkfc-fight-night-clearwater-4@bkfc-calendar
