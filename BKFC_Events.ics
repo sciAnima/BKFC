@@ -4,6 +4,18 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT AUSTRALIA HEPI vs SHEWMAKER
+DTSTART;TZID=America/New_York:20261003T050000
+DTEND;TZID=America/New_York:20261003T090000
+UID:bkfc-fight-night-australia@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 5:00 AM EDT\n  CT: 4:00 AM CDT\n  MT: 3:00
+  AM MDT\n  PT: 2:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-australia\n\n
+ Source: https://www.bkfc.com
+LOCATION:EATONS HILL HOTEL - QUEENSLAND\, AU
+URL:https://www.bkfc.com/events/bkfc-fight-night-australia
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:BKFC 94 MANCHESTER TILL vs ROMERO
 DTSTART;TZID=America/New_York:20260926T140000
 DTEND;TZID=America/New_York:20260926T180000
@@ -14,30 +26,6 @@ DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
  : https://www.bkfc.com
 LOCATION:AO ARENA - MANCHESTER\, UK
 URL:https://www.bkfc.com/events/bkfc-94-manchester
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC 93 HOLLYWOOD PERDOMO vs HILL
-DTSTART;TZID=America/New_York:20260911T190000
-DTEND;TZID=America/New_York:20260911T230000
-UID:bkfc-93-hollywood@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 7:00 PM EDT\n  CT: 6:00 PM CDT\n  MT: 5:00
-  PM MDT\n  PT: 4:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-93-hollywood\n\nSource: h
- ttps://www.bkfc.com
-LOCATION:HARD ROCK HOTEL & CASINO - HOLLYWOOD\, FL
-URL:https://www.bkfc.com/events/bkfc-93-hollywood
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT AUSTRALIA
-DTSTART;TZID=America/New_York:20261003T050000
-DTEND;TZID=America/New_York:20261003T090000
-UID:bkfc-fight-night-australia@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 5:00 AM EDT\n  CT: 4:00 AM CDT\n  MT: 3:00
-  AM MDT\n  PT: 2:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-australia\n\n
- Source: https://www.bkfc.com
-LOCATION:EATONS HILL HOTEL - QUEENSLAND\, AU
-URL:https://www.bkfc.com/events/bkfc-fight-night-australia
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT BETHLEHEM CISNEROS vs PETERSEN
@@ -88,7 +76,7 @@ LOCATION:OCC ROAD HOUSE - CLEARWATER\, FL
 URL:https://www.bkfc.com/events/bkfc-fight-night-clearwater-4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT GLASGOW COOKE vs WEIR
+SUMMARY:BKFC GLASGOW COOKE vs WEIR
 DTSTART;TZID=America/New_York:20261107T140000
 DTEND;TZID=America/New_York:20261107T180000
 UID:bkfc-glasgow@bkfc-calendar
@@ -98,5 +86,29 @@ DESCRIPTION:Start Times:\n  ET: 2:00 PM EST\n  CT: 1:00 PM CST\n  MT: 12:0
  s://www.bkfc.com
 LOCATION:OVO HYDRO - GLASGOW\, SCOTLAND
 URL:https://www.bkfc.com/events/bkfc-glasgow
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC HOLLYWOOD
+DTSTART;TZID=America/New_York:20261211T190000
+DTEND;TZID=America/New_York:20261211T230000
+UID:bkfc-hollywood-3@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 7:00 PM EST\n  CT: 6:00 PM CST\n  MT: 5:00
+  PM MST\n  PT: 4:00 PM PST\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-hollywood-3\n\nSource: ht
+ tps://www.bkfc.com
+LOCATION:HARD ROCK LIVE - HOLLYWOOD\, FL
+URL:https://www.bkfc.com/events/bkfc-hollywood-3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFSEA BRUISE CRUISE
+DTSTART;TZID=America/New_York:20270123T210000
+DTEND;TZID=America/New_York:20270124T010000
+UID:bkfsea-bruise-cruise@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 9:00 PM EST\n  CT: 8:00 PM CST\n  MT: 7:00
+  PM MST\n  PT: 6:00 PM PST\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfsea-bruise-cruise\n\nSource
+ : https://www.bkfc.com
+LOCATION:NORWEGIAN JEWEL - BAHAMAS
+URL:https://www.bkfc.com/events/bkfsea-bruise-cruise
 END:VEVENT
 END:VCALENDAR
