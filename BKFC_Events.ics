@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT AUSTRALIA HEPI vs SHEWMAKER
-DTSTART;TZID=America/New_York:20261003T050000
-DTEND;TZID=America/New_York:20261003T090000
-UID:bkfc-fight-night-australia@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 5:00 AM EDT\n  CT: 4:00 AM CDT\n  MT: 3:00
-  AM MDT\n  PT: 2:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-australia\n\n
- Source: https://www.bkfc.com
-LOCATION:EATONS HILL HOTEL - QUEENSLAND\, AU
-URL:https://www.bkfc.com/events/bkfc-fight-night-australia
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC 94 MANCHESTER TILL vs ROMERO
-DTSTART;TZID=America/New_York:20260926T140000
-DTEND;TZID=America/New_York:20260926T180000
-UID:bkfc-94-manchester@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 2:00 PM EDT\n  CT: 1:00 PM CDT\n  MT: 12:0
- 0 PM MDT\n  PT: 11:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
- com/\nEvent Info: https://www.bkfc.com/events/bkfc-94-manchester\n\nSource
- : https://www.bkfc.com
-LOCATION:AO ARENA - MANCHESTER\, UK
-URL:https://www.bkfc.com/events/bkfc-94-manchester
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT BETHLEHEM CISNEROS vs PETERSEN
 DTSTART;TZID=America/New_York:20261009T200000
 DTEND;TZID=America/New_York:20261010T000000
@@ -38,6 +14,18 @@ DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
  Source: https://www.bkfc.com
 LOCATION:WIND CREEK EVENT CENTER - BETHLEHEM\, PA
 URL:https://www.bkfc.com/events/bkfc-fight-night-bethlehem
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT AUSTRALIA HEPI vs SHEWMAKER
+DTSTART;TZID=America/New_York:20261003T050000
+DTEND;TZID=America/New_York:20261003T090000
+UID:bkfc-fight-night-australia@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 5:00 AM EDT\n  CT: 4:00 AM CDT\n  MT: 3:00
+  AM MDT\n  PT: 2:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-australia\n\n
+ Source: https://www.bkfc.com
+LOCATION:EATONS HILL HOTEL - QUEENSLAND\, AU
+URL:https://www.bkfc.com/events/bkfc-fight-night-australia
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC BELGRADE FAULKNER vs PRASOVIC
@@ -86,6 +74,18 @@ DESCRIPTION:Start Times:\n  ET: 2:00 PM EST\n  CT: 1:00 PM CST\n  MT: 12:0
  s://www.bkfc.com
 LOCATION:OVO HYDRO - GLASGOW\, SCOTLAND
 URL:https://www.bkfc.com/events/bkfc-glasgow
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT MYRTLE BEACH
+DTSTART;TZID=America/New_York:20261120T200000
+DTEND;TZID=America/New_York:20261121T000000
+UID:bkfc-fight-night-myrtle-beach@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 8:00 PM EST\n  CT: 7:00 PM CST\n  MT: 6:00
+  PM MST\n  PT: 5:00 PM PST\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach\
+ n\nSource: https://www.bkfc.com
+LOCATION:MYRTLE BEACH SPORTS CENTER - MYRTLE BEACH\, SC
+URL:https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC HOLLYWOOD
