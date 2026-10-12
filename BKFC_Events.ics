@@ -4,28 +4,16 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC BELGRADE FAULKNER vs PRASOVIC
-DTSTART;TZID=America/New_York:20261017T130000
-DTEND;TZID=America/New_York:20261017T170000
-UID:bkfc-serbia@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 1:00 PM EDT\n  CT: 12:00 PM CDT\n  MT: 11:
- 00 AM MDT\n  PT: 10:00 AM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc
- .com/\nEvent Info: https://www.bkfc.com/events/bkfc-serbia\n\nSource: http
- s://www.bkfc.com
-LOCATION:BEOGRADSKA ARENA - BELGRADE\, SERBIA
-URL:https://www.bkfc.com/events/bkfc-serbia
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT BETHLEHEM CISNEROS vs PETERSEN
-DTSTART;TZID=America/New_York:20261009T200000
-DTEND;TZID=America/New_York:20261010T000000
-UID:bkfc-fight-night-bethlehem@bkfc-calendar
+SUMMARY:BKFC FIGHT NIGHT CLEARWATER REBER vs STREET
+DTSTART;TZID=America/New_York:20261023T200000
+DTEND;TZID=America/New_York:20261024T000000
+UID:bkfc-fight-night-clearwater-4@bkfc-calendar
 DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
   PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-bethlehem\n\n
- Source: https://www.bkfc.com
-LOCATION:WIND CREEK EVENT CENTER - BETHLEHEM\, PA
-URL:https://www.bkfc.com/events/bkfc-fight-night-bethlehem
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-clearwater-4\
+ n\nSource: https://www.bkfc.com
+LOCATION:OCC ROAD HOUSE - CLEARWATER\, FL
+URL:https://www.bkfc.com/events/bkfc-fight-night-clearwater-4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC 95 NEWARK HERRING vs DODSON
@@ -38,18 +26,6 @@ DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
  s://www.bkfc.com
 LOCATION:PRUDENTIAL CENTER - NEWARK\, NJ
 URL:https://www.bkfc.com/events/bkfc-95-newark
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT CLEARWATER REBER vs STREET
-DTSTART;TZID=America/New_York:20261023T200000
-DTEND;TZID=America/New_York:20261024T000000
-UID:bkfc-fight-night-clearwater-4@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
-  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-clearwater-4\
- n\nSource: https://www.bkfc.com
-LOCATION:OCC ROAD HOUSE - CLEARWATER\, FL
-URL:https://www.bkfc.com/events/bkfc-fight-night-clearwater-4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC 96 GLASGOW COOKE vs WEIR
