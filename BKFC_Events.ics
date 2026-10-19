@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT CLEARWATER REBER vs STREET
-DTSTART;TZID=America/New_York:20261023T200000
-DTEND;TZID=America/New_York:20261024T000000
-UID:bkfc-fight-night-clearwater-4@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
-  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-clearwater-4\
- n\nSource: https://www.bkfc.com
-LOCATION:OCC ROAD HOUSE - CLEARWATER\, FL
-URL:https://www.bkfc.com/events/bkfc-fight-night-clearwater-4
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC 95 NEWARK HERRING vs DODSON
-DTSTART;TZID=America/New_York:20261017T200000
-DTEND;TZID=America/New_York:20261018T000000
-UID:bkfc-95-newark@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
-  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-95-newark\n\nSource: http
- s://www.bkfc.com
-LOCATION:PRUDENTIAL CENTER - NEWARK\, NJ
-URL:https://www.bkfc.com/events/bkfc-95-newark
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC 96 GLASGOW COOKE vs WEIR
 DTSTART;TZID=America/New_York:20261107T140000
 DTEND;TZID=America/New_York:20261107T180000
@@ -38,6 +14,18 @@ DESCRIPTION:Start Times:\n  ET: 2:00 PM EST\n  CT: 1:00 PM CST\n  MT: 12:0
  s://www.bkfc.com
 LOCATION:OVO HYDRO - GLASGOW\, SCOTLAND
 URL:https://www.bkfc.com/events/bkfc-glasgow
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT CLEARWATER REBER vs STREET
+DTSTART;TZID=America/New_York:20261023T200000
+DTEND;TZID=America/New_York:20261024T000000
+UID:bkfc-fight-night-clearwater-4@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
+  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-clearwater-4\
+ n\nSource: https://www.bkfc.com
+LOCATION:OCC ROAD HOUSE - CLEARWATER\, FL
+URL:https://www.bkfc.com/events/bkfc-fight-night-clearwater-4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT MYRTLE BEACH RICHARDSON vs OXENDINE
@@ -64,7 +52,7 @@ LOCATION:GIANT CENTER - HERSHEY\, PA
 URL:https://www.bkfc.com/events/bkfc-fight-night-hershey
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFC HOLLYWOOD
+SUMMARY:BKFC 97 HOLLYWOOD
 DTSTART;TZID=America/New_York:20261211T190000
 DTEND;TZID=America/New_York:20261211T230000
 UID:bkfc-hollywood-3@bkfc-calendar
