@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC 96 GLASGOW COOKE vs WEIR
-DTSTART;TZID=America/New_York:20261107T140000
-DTEND;TZID=America/New_York:20261107T180000
-UID:bkfc-glasgow@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 2:00 PM EST\n  CT: 1:00 PM CST\n  MT: 12:0
- 0 PM MST\n  PT: 11:00 AM PST\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
- com/\nEvent Info: https://www.bkfc.com/events/bkfc-glasgow\n\nSource: http
- s://www.bkfc.com
-LOCATION:OVO HYDRO - GLASGOW\, SCOTLAND
-URL:https://www.bkfc.com/events/bkfc-glasgow
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT CLEARWATER REBER vs STREET
-DTSTART;TZID=America/New_York:20261023T200000
-DTEND;TZID=America/New_York:20261024T000000
-UID:bkfc-fight-night-clearwater-4@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 8:00 PM EDT\n  CT: 7:00 PM CDT\n  MT: 6:00
-  PM MDT\n  PT: 5:00 PM PDT\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-clearwater-4\
- n\nSource: https://www.bkfc.com
-LOCATION:OCC ROAD HOUSE - CLEARWATER\, FL
-URL:https://www.bkfc.com/events/bkfc-fight-night-clearwater-4
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT MYRTLE BEACH RICHARDSON vs OXENDINE
 DTSTART;TZID=America/New_York:20261120T200000
 DTEND;TZID=America/New_York:20261121T000000
@@ -40,12 +16,24 @@ LOCATION:MYRTLE BEACH SPORTS CENTER - MYRTLE BEACH\, SC
 URL:https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT HERSHEY
-DTSTART;TZID=America/New_York:20261204T190000
-DTEND;TZID=America/New_York:20261204T230000
+SUMMARY:BKFC 96 GLASGOW COOKE vs WEIR
+DTSTART;TZID=America/New_York:20261107T140000
+DTEND;TZID=America/New_York:20261107T180000
+UID:bkfc-glasgow@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 2:00 PM EST\n  CT: 1:00 PM CST\n  MT: 12:0
+ 0 PM MST\n  PT: 11:00 AM PST\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
+ com/\nEvent Info: https://www.bkfc.com/events/bkfc-glasgow\n\nSource: http
+ s://www.bkfc.com
+LOCATION:OVO HYDRO - GLASGOW\, SCOTLAND
+URL:https://www.bkfc.com/events/bkfc-glasgow
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT HERSHEY PAGUE vs RICHMAN
+DTSTART;TZID=America/New_York:20261204T200000
+DTEND;TZID=America/New_York:20261205T000000
 UID:bkfc-fight-night-hershey@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 7:00 PM EST\n  CT: 6:00 PM CST\n  MT: 5:00
-  PM MST\n  PT: 4:00 PM PST\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+DESCRIPTION:Start Times:\n  ET: 8:00 PM EST\n  CT: 7:00 PM CST\n  MT: 6:00
+  PM MST\n  PT: 5:00 PM PST\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
  m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-hershey\n\nSo
  urce: https://www.bkfc.com
 LOCATION:GIANT CENTER - HERSHEY\, PA
@@ -64,7 +52,7 @@ LOCATION:HARD ROCK LIVE - HOLLYWOOD\, FL
 URL:https://www.bkfc.com/events/bkfc-hollywood-3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BKFSEA BRUISE CRUISE
+SUMMARY:BKFSEA BRUISE CRUISE STEWART vs DURAN
 DTSTART;TZID=America/New_York:20270123T210000
 DTEND;TZID=America/New_York:20270124T010000
 UID:bkfsea-bruise-cruise@bkfc-calendar
