@@ -4,30 +4,6 @@ PRODID:-//BKFC Events Scraper//EN
 X-WR-CALNAME:BKFC Events
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:BKFC FIGHT NIGHT MYRTLE BEACH RICHARDSON vs OXENDINE
-DTSTART;TZID=America/New_York:20261120T210000
-DTEND;TZID=America/New_York:20261121T010000
-UID:bkfc-fight-night-myrtle-beach@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 9:00 PM EST\n  CT: 8:00 PM CST\n  MT: 7:00
-  PM MST\n  PT: 6:00 PM PST\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
- m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach\
- n\nSource: https://www.bkfc.com
-LOCATION:MYRTLE BEACH SPORTS CENTER - MYRTLE BEACH\, SC
-URL:https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKFC 96 GLASGOW WEIR vs COHOON
-DTSTART;TZID=America/New_York:20261107T140000
-DTEND;TZID=America/New_York:20261107T180000
-UID:bkfc-glasgow@bkfc-calendar
-DESCRIPTION:Start Times:\n  ET: 2:00 PM EST\n  CT: 1:00 PM CST\n  MT: 12:0
- 0 PM MST\n  PT: 11:00 AM PST\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
- com/\nEvent Info: https://www.bkfc.com/events/bkfc-glasgow\n\nSource: http
- s://www.bkfc.com
-LOCATION:OVO HYDRO - GLASGOW\, SCOTLAND
-URL:https://www.bkfc.com/events/bkfc-glasgow
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BKFC FIGHT NIGHT HERSHEY PAGUE vs RICHMAN
 DTSTART;TZID=America/New_York:20261204T200000
 DTEND;TZID=America/New_York:20261205T000000
@@ -38,6 +14,18 @@ DESCRIPTION:Start Times:\n  ET: 8:00 PM EST\n  CT: 7:00 PM CST\n  MT: 6:00
  urce: https://www.bkfc.com
 LOCATION:GIANT CENTER - HERSHEY\, PA
 URL:https://www.bkfc.com/events/bkfc-fight-night-hershey
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC FIGHT NIGHT MYRTLE BEACH RICHARDSON vs OXENDINE
+DTSTART;TZID=America/New_York:20261120T210000
+DTEND;TZID=America/New_York:20261121T010000
+UID:bkfc-fight-night-myrtle-beach@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 9:00 PM EST\n  CT: 8:00 PM CST\n  MT: 7:00
+  PM MST\n  PT: 6:00 PM PST\n\nHow to Watch: BKFC+ -- https://watch.bkfc.co
+ m/\nEvent Info: https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach\
+ n\nSource: https://www.bkfc.com
+LOCATION:MYRTLE BEACH SPORTS CENTER - MYRTLE BEACH\, SC
+URL:https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BKFC 97 HOLLYWOOD HENRY vs COLLARD
@@ -62,5 +50,17 @@ DESCRIPTION:Start Times:\n  ET: 9:00 PM EST\n  CT: 8:00 PM CST\n  MT: 7:00
  : https://www.bkfc.com
 LOCATION:NORWEGIAN JEWEL - BAHAMAS
 URL:https://www.bkfc.com/events/bkfsea-bruise-cruise
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BKFC 99 SHEFFIELD BONNER vs FRANCO
+DTSTART;TZID=America/New_York:20270213T140000
+DTEND;TZID=America/New_York:20270213T180000
+UID:bkfc-99-sheffield-bonner-vs-franco@bkfc-calendar
+DESCRIPTION:Start Times:\n  ET: 2:00 PM EST\n  CT: 1:00 PM CST\n  MT: 12:0
+ 0 PM MST\n  PT: 11:00 AM PST\n\nHow to Watch: BKFC+ -- https://watch.bkfc.
+ com/\nEvent Info: https://www.bkfc.com/events/bkfc-99-sheffield-bonner-vs-
+ franco\n\nSource: https://www.bkfc.com
+LOCATION:UTILITA ARENA - SHEFFIELD\, UK
+URL:https://www.bkfc.com/events/bkfc-99-sheffield-bonner-vs-franco
 END:VEVENT
 END:VCALENDAR
